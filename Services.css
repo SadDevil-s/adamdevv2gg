@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background-color: rgb(0, 0, 0);
+ 
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+
+body{
+    background-color: rgb(143, 143, 143);
+}
+
+
+
+.logo{
+    text-decoration: none;
+    color:yellowgreen;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.8em;
+}
+
+.logo span{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.5em;
+    text-decoration: none;
+}
+
+
+.navigation a{
+    color: yellowgreen;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: gray;
+}
+
+section{
+    padding:100px 200px;
+}
+
+.social-icon a{
+    padding-right: 60px;
+    color: yellowgreen;
+    font-size: 1.7em;
+}
+
+.icon{
+    color: rgb(219, 219 ,219);
+    font-size: 8em;
+    text-align: center;
+}
+
+.icon:hover{
+    color: rgb(119, 158, 41);
+}
+
+.Contact{
+    justify-content: center;
+    display: flex;
+    background: url(1.jpg);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(219, 219 ,219);
+}
+
+body {
+    background-image: url(15.jpg);
+    background-color: #cccccc;
+   }
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.card{
+    background-color: rgb(136, 136, 136);
+    background:url(10.jpg);
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 12px;
+    text-align: center;
+    box-sizing: center;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease-in;
+    transition: 0.7s ease-out;
+}
+
+.icon{
+    color: rgb(219, 219 ,219);
+    font-size: 8em;
+    text-align: center;
+}
+
+.icon:hover{
+    color: rgb(101, 112, 158);
+}
+
+.icon a:hover{
+    color: rgb(101, 112, 158);
+}
+
+.info h3{
+    color: rgb(219, 219 ,219);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.info h3:hover{
+    color: rgb(101, 112, 158);
+}
+
+.contact .icon{
+    font-size: 4.5em;
+}
+
+.contact .info h3{
+    color: rgb(219, 219 ,219);
+}
+
+.content a{
+    color:rgb(219, 219 ,219);
+    
+}
+
+.content .info p{
+    color: rgb(219, 219 ,219);
+
+}
+
+.content a:hover{
+    color:rgb(101, 112, 158);
+}
+
+.content .info p:hover{
+    color:rgb(101, 112, 158);
+}
+
+.footer{
+    background-color: black;
+    color: rgb(219, 219 ,219);
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    margin-top:100px;
+}
+
+.footer p{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.footer p span{
+    color: rgb(76, 90, 151);
+    font-size: 1.4em;
+    font-weight: 700;
+}
+    
